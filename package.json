@@ -5,7 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "watch": "npm run ng build --watch --deploy-url /my-app/ --base-href /my-app/",
+    "watch": "npm install && ng build --watch --deploy-url /my-app/ --base-href /my-app/",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "jest"
